@@ -1,0 +1,48 @@
+.content{
+    margin: auto;
+    height:auto;
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns:  40vh 40vh 40vh 40vh ;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.cards img{
+    width: 100%;
+
+}
+.foodName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards{
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+}
+.cards p{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#btn{
+    padding: 5px;
+    font-size: 1rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius: .5rem;
+    border: none;
+}
+#orderFoodBtn{
+    padding: 10px;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    margin-right: 40px;
+}
